@@ -99,6 +99,13 @@
                 <version>3.2.2</version>
             </plugin>
 
+    	    <!-- Plugin for Sonarqube  --> 
+            <plugin>
+ 	        <groupId>org.sonarsource.scanner.maven</groupId>
+		<artifactId>sonar-maven-plugin</artfactId>
+                <version>3.7.0.1746</version>			
+	    </plugin>	    
+
         </plugins>
     </build>
 
